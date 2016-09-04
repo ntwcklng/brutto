@@ -1,0 +1,28 @@
+{
+  "name": "brutto",
+  "version": "0.0.0",
+  "description": "Bruttopreis berechnen",
+  "license": "MIT",
+  "repository": "ntwcklng/brutto",
+  "author": {
+    "name": "ntwcklng",
+    "email": "ntwcklng@gmail.com",
+    "url": "-"
+  },
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    ""
+  ],
+  "dependencies": {
+    "meow": "^3.7.0"
+  }
+}
