@@ -25,7 +25,7 @@ Options
 Examples
   $ brutto 23,12
   Brutto: 27,51€ (19% MwSt = 4,39€)
-  $ brutto 23,12 --tax 7
+  $ brutto 23,12 --steuer 7
   Brutto: 24,73€ (7% MwSt = 1,61€)
 ```
 
