@@ -6,60 +6,27 @@
 ## Install
 
 ```
-$ npm install --save brutto
+$ npm install -g brutto
 ```
-
-
-## Usage
-
-```js
-const brutto = require('brutto');
-
-brutto('unicorns');
-//=> 'unicorns & rainbows'
-```
-
-
-## API
-
-### brutto(input, [options])
-
-#### input
-
-Type: `string`
-
-Lorem ipsum.
-
-#### options
-
-##### foo
-
-Type: `boolean`<br>
-Default: `false`
-
-Lorem ipsum.
-
 
 ## CLI
 
 ```
-$ npm install --global brutto
-```
-
-```
 $ brutto --help
 
-  Usage
-    brutto [input]
+Bruttopreis berechnen
 
-  Options
-    --foo  Lorem ipsum [Default: false]
+Usage
+  $ brutto [input]
 
-  Examples
-    $ brutto
-    unicorns & rainbows
-    $ brutto ponies
-    ponies & rainbows
+Options
+  --steuer Anderer Steuersatz [Default: 19%]
+
+Examples
+  $ brutto 23,12
+  Brutto: 27,51€ (19% MwSt = 4,39€)
+  $ brutto 23,12 --tax 7
+  Brutto: 24,73€ (7% MwSt = 1,61€)
 ```
 
 
